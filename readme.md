@@ -46,7 +46,13 @@ Toy Story 3 ganhou um Oscar em quais anos?
 
 Quem tem mais Oscars: a categoria "Melhor Ator" ou "Melhor Filme"?
 
-<strong>R:</strong> <code> SELECT * FROM `oscar` WHERE category like "%best pictures%"</code>
+<strong>R:</strong> <code> SELECT COUNT(*) FROM `oscar` WHERE `name` AND winner ="true";</code>
+  
+<code> SELECT COUNT(*) FROM `oscar` WHERE `film` AND winner ="true";</code>
+                    
+ <strong>Resultado:</strong> melhor filme.
+                    
+ 
   
 ##
 
