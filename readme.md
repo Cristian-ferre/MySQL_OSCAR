@@ -154,8 +154,3 @@ R:
 <code>INSERT INTO `oscar`(`id`, `year_film`, `year_ceremony`, `ceremony`, `category`, `name`, `film`, `winner`, `PRÊMIO`) VALUES ('','2010','2022','','ACTRESS','Mia Wasikowska','Alice no País das Maravilhas','0','');</code>
 
 
-##
-
-Utilizando o comando 'Alter Table', troque os tipos dos dados da coluna/campo "Winner" para Bit.
-
-R: <code>ALTER TABLE oscar CHANGE winner bit INT(10);</code>
